@@ -1,7 +1,7 @@
 /* Start Variables */
 :root {
     --main-color: #bb9cc0;
-    --transparent-color:#bb9cc08f;
+    --transparent-color: #bb9cc08f;
     --section-padding: 100px
 }
 
@@ -374,6 +374,7 @@ header nav .form i {
     background-size: cover;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .design::before {
@@ -407,7 +408,7 @@ header nav .form i {
 .design .image img {
     position: relative;
     bottom: -150px;
-    overflow: hidden;
+
 }
 
 .design .text {
@@ -428,13 +429,12 @@ header nav .form i {
 }
 
 .design .text ul li::before {
-    font-family: "font Awesom 5 Free";
+    font-family: "Font Awesome 5 Free";
     content: "\f108";
     font-weight: 900;
-    margin-right: 10px;
+    margin-right: 20px;
     position: relative;
     top: 1px;
-    color: white;
 }
 
 /* end design */
@@ -454,7 +454,7 @@ header nav .form i {
 }
 
 .portfolio .shuffle li.active {
-    color: wheat;
+    color: white;
     background-color: var(--main-color);
 }
 
@@ -837,7 +837,7 @@ header nav .form i {
 
 .quote q::before {
     font-family: "font Awesome 5 free";
-    content: "\f10e";
+    content: "\f10d";
     font-weight: 900;
     margin-right: 3px;
     position: relative;
